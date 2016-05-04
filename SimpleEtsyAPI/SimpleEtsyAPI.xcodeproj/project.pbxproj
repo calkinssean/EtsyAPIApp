@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14308FE31CDAABE300A38802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14308FE21CDAABE300A38802 /* AppDelegate.swift */; };
+		14308FE51CDAABE300A38802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14308FE41CDAABE300A38802 /* ViewController.swift */; };
+		14308FE81CDAABE300A38802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14308FE61CDAABE300A38802 /* Main.storyboard */; };
+		14308FEA1CDAABE300A38802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14308FE91CDAABE300A38802 /* Assets.xcassets */; };
+		14308FED1CDAABE300A38802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14308FEB1CDAABE300A38802 /* LaunchScreen.storyboard */; };
+		14308FF51CDAABEF00A38802 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14308FF41CDAABEF00A38802 /* APIController.swift */; };
+		14308FF81CDAAC1A00A38802 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14308FF71CDAAC1A00A38802 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14308FDF1CDAABE300A38802 /* SimpleEtsyAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEtsyAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14308FE21CDAABE300A38802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14308FE41CDAABE300A38802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14308FE71CDAABE300A38802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14308FE91CDAABE300A38802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14308FEC1CDAABE300A38802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14308FEE1CDAABE300A38802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14308FF41CDAABEF00A38802 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIController.swift; path = ../APIController.swift; sourceTree = "<group>"; };
+		14308FF71CDAAC1A00A38802 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14308FDC1CDAABE300A38802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14308FD61CDAABE300A38802 = {
+			isa = PBXGroup;
+			children = (
+				14308FE11CDAABE300A38802 /* SimpleEtsyAPI */,
+				14308FE01CDAABE300A38802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14308FE01CDAABE300A38802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14308FDF1CDAABE300A38802 /* SimpleEtsyAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14308FE11CDAABE300A38802 /* SimpleEtsyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				14308FF61CDAABF500A38802 /* Controllers */,
+				14308FF91CDAAC2200A38802 /* Models */,
+				14308FE21CDAABE300A38802 /* AppDelegate.swift */,
+				14308FE41CDAABE300A38802 /* ViewController.swift */,
+				14308FE61CDAABE300A38802 /* Main.storyboard */,
+				14308FE91CDAABE300A38802 /* Assets.xcassets */,
+				14308FEB1CDAABE300A38802 /* LaunchScreen.storyboard */,
+				14308FEE1CDAABE300A38802 /* Info.plist */,
+			);
+			path = SimpleEtsyAPI;
+			sourceTree = "<group>";
+		};
+		14308FF61CDAABF500A38802 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14308FF41CDAABEF00A38802 /* APIController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		14308FF91CDAAC2200A38802 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14308FF71CDAAC1A00A38802 /* Item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14308FDE1CDAABE300A38802 /* SimpleEtsyAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14308FF11CDAABE300A38802 /* Build configuration list for PBXNativeTarget "SimpleEtsyAPI" */;
+			buildPhases = (
+				14308FDB1CDAABE300A38802 /* Sources */,
+				14308FDC1CDAABE300A38802 /* Frameworks */,
+				14308FDD1CDAABE300A38802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleEtsyAPI;
+			productName = SimpleEtsyAPI;
+			productReference = 14308FDF1CDAABE300A38802 /* SimpleEtsyAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14308FD71CDAABE300A38802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sean Calkins";
+				TargetAttributes = {
+					14308FDE1CDAABE300A38802 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 14308FDA1CDAABE300A38802 /* Build configuration list for PBXProject "SimpleEtsyAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14308FD61CDAABE300A38802;
+			productRefGroup = 14308FE01CDAABE300A38802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14308FDE1CDAABE300A38802 /* SimpleEtsyAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14308FDD1CDAABE300A38802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14308FED1CDAABE300A38802 /* LaunchScreen.storyboard in Resources */,
+				14308FEA1CDAABE300A38802 /* Assets.xcassets in Resources */,
+				14308FE81CDAABE300A38802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14308FDB1CDAABE300A38802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14308FF81CDAAC1A00A38802 /* Item.swift in Sources */,
+				14308FE51CDAABE300A38802 /* ViewController.swift in Sources */,
+				14308FE31CDAABE300A38802 /* AppDelegate.swift in Sources */,
+				14308FF51CDAABEF00A38802 /* APIController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14308FE61CDAABE300A38802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14308FE71CDAABE300A38802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14308FEB1CDAABE300A38802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14308FEC1CDAABE300A38802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14308FEF1CDAABE300A38802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14308FF01CDAABE300A38802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14308FF21CDAABE300A38802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleEtsyAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeanCalkins.SimpleEtsyAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14308FF31CDAABE300A38802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleEtsyAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeanCalkins.SimpleEtsyAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14308FDA1CDAABE300A38802 /* Build configuration list for PBXProject "SimpleEtsyAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14308FEF1CDAABE300A38802 /* Debug */,
+				14308FF01CDAABE300A38802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14308FF11CDAABE300A38802 /* Build configuration list for PBXNativeTarget "SimpleEtsyAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14308FF21CDAABE300A38802 /* Debug */,
+				14308FF31CDAABE300A38802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14308FD71CDAABE300A38802 /* Project object */;
+}
